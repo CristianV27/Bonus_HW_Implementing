@@ -1,0 +1,234 @@
+* {
+    font-family: Tech;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid pink; */
+}
+
+@font-face {
+    font-family: Tech;
+    src: url("bienetresocial.ttf"); 
+}
+
+body {
+    margin: auto;
+    width: 1010px;
+    border: 5px solid white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;    
+    width: 1000px;
+}
+
+.header {
+    width: 190px;
+    padding: 15px;
+    color: white;
+    background-color: #2265a9;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tech {
+    font-size: 1.5em;
+    padding-top: 8px; padding-bottom: 8px; 
+    display: flex;
+    align-items: center;
+    /* background-color: turquoise; */
+}
+
+.freePsd {
+    font-size: 0.6em;
+    padding: 20px;
+    border-left: 2px solid black;
+}
+
+.techCorporate {
+    padding-right: 10px;
+}
+
+.tel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: gray;
+    text-align: end;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.float1 {
+    width: 350px;
+    color: white;
+    background-color: #2265a9;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+    top: -450px;
+}
+
+.float01 {
+    font-size: small;
+    padding-top: 10px ;
+}
+
+h3 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted white;
+}
+
+h2 {
+    font-size: 19px;
+    color: grey;
+    font-weight: lighter;
+    border-bottom: 2px dashed grey;
+}
+
+h1 {
+    width: 560px;
+    padding: 15px;
+    background-color: #2265a9;
+    font-size: 3em;
+    color: white;
+    position: relative;
+    left: 400px;
+    top: -240px;
+}
+
+.image {
+    height: 490px;
+}
+
+.middle {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 2px dashed grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-article {
+    width: 280px;
+    background-color: lightgray;
+    padding: 15px 30px 15px 30px;
+}
+
+.middle-box {
+    display: table-cell;
+    width: 240px;
+    height: 90px;
+    background-color: black;
+    border: 5px solid white;
+    outline: 1px solid black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.7em;
+    margin-top: 10px;
+}
+
+.middle-title {
+    text-decoration: underline dotted gray;
+    text-underline-position: under;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.middle-text {
+    padding-top: 10px;
+    font-size: small;
+    color:grey;
+    font-weight: lighter;
+}
+
+.middle-read {
+    padding-top: 15px;
+    color: blue;
+    font-size: small;
+    text-align: end;
+}
+
+.middle2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.middle2-middle {
+    width: 400px;
+}
+
+.middle2-right {
+    background-color: rgb(235, 233, 233);
+    width: 350px;
+    height: 180px;
+    padding: 10px;
+}
+
+.link-text {
+    /* font-size: 12px; */
+
+}
+
+.two-combined {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dotted grey;
+}
+
+.moddle2-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 160px;
+    background-color: black;
+    border: 5px solid white;
+    outline: 1px solid black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5em;
+    
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 174px;
+    height: 100px;
+    background-color: black;
+    border: 5px solid white;
+    outline: 1px solid black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.footer2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #2265a9;
+    color: white;
+    font-size: small;
+}
